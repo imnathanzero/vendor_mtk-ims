@@ -68,5 +68,3 @@ dex_import {
 	owner: "realme",
 	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
 }
-
-
