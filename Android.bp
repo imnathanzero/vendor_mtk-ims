@@ -27,6 +27,12 @@ android_app_import {
 	privileged: true,
 }
 
+java_library {
+    name: "ImsServiceBase",
+    installable: true,
+    srcs: ["proprietary/libshims/ImsServiceBase.java"],
+}
+
 dex_import {
 	name: "mediatek-common",
 	owner: "realme",
