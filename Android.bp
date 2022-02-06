@@ -30,7 +30,7 @@ android_app_import {
 java_library {
     name: "ImsServiceBase",
     installable: true,
-    srcs: ["proprietary/libshims/ImsServiceBase.java"],
+    srcs: ["libshims/ImsServiceBase.java"],
 }
 
 dex_import {
