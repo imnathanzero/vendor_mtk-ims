@@ -23,18 +23,6 @@ dex_import {
 }
 
 dex_import {
-	name: "mediatek-ims-extension-plugin",
-	owner: "realme",
-	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
-}
-
-dex_import {
-	name: "mediatek-ims-legacy",
-	owner: "realme",
-	jars: ["proprietary/framework/mediatek-ims-legacy.jar"],
-}
-
-dex_import {
 	name: "mediatek-telecom-common",
 	owner: "realme",
 	jars: ["proprietary/framework/mediatek-telecom-common.jar"],
@@ -50,10 +38,4 @@ dex_import {
 	name: "mediatek-telephony-common",
 	owner: "realme",
 	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
-}
-
-java_library {
-    name: "ImsServiceBase",
-    installable: true,
-    srcs: ["libshims/ImsServiceBase.java"],
 }
