@@ -1,3 +1,14 @@
+android_app_import {
+	name: "ImsService.apk",
+	owner: "realme",
+	apk: "proprietary/ImsService/ImsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
 dex_import {
 	name: "mediatek-common",
 	owner: "realme",
