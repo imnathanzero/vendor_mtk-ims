@@ -1,7 +1,7 @@
 android_app_import {
 	name: "ImsService.apk",
 	owner: "realme",
-	apk: "proprietary/ImsService/ImsService.apk",
+	apk: "ImsService/ImsService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
